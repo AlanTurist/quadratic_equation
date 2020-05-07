@@ -26,6 +26,8 @@
       <img src="https://github.com/AlanTurist/quadratic_equation/blob/master/images/4.jpg" " width="500"    height="333">
       <br>
       <img src="https://github.com/AlanTurist/quadratic_equation/blob/master/images/5.jpg" " width="500"    height="333">
+      <br>
+      <img src="https://github.com/AlanTurist/quadratic_equation/blob/master/images/6.jpg" " width="500"    height="333">
    </body>
   </html>
 
