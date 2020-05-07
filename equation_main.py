@@ -4,6 +4,7 @@
 import solution_equation
 import pure_equation
 import spur_equation
+import exept_def
 import os
 import sys
 
@@ -16,7 +17,10 @@ print('*'*25,'Solutions','*'*25)
 
 
 if a == 0:
-    print("\nIt doesn't exist quadratic equation with a = 0..")
+    exept_def.exeption(a, b, c)
+
+elif b == 0 and c == 0:
+    exept_def.exeption(a, b, c)
 
 elif b == 0:
     pure_equation.pure(a, c)
@@ -28,7 +32,7 @@ else:
     solution_equation.solution(a, b, c)
 
 print('\n')
-print('*'*60)
+print('*'*61)
 
 restart = input("\n\nIf you want to retry press 'Y' and 'enter'.\n\nTo exit press 'enter': ")
 
