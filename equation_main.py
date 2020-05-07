@@ -14,7 +14,11 @@ c = float(input("\nInsert c: "))
 print('\n')
 print('*'*25,'Solutions','*'*25)
 
-if b == 0:
+
+if a == 0:
+    print("\nIt doesn't exist quadratic equation with a = 0..")
+
+elif b == 0:
     pure_equation.pure(a, c)
 
 elif c == 0:
