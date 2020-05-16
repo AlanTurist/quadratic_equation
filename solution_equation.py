@@ -3,7 +3,7 @@ import cmath
 
 def solution(a, b, c):
 
-    D = ((b**2) - (4*c))
+    D = ((b**2) - (4*a*c))
 
     if D >= 0:
         disc = math.sqrt(D)
