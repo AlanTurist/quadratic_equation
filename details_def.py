@@ -1,6 +1,10 @@
 def detail(a, b, c, D):
 
-    if b == 0:
+    if b == 0 and c == 0:
+        print("\nFor finding the solutions of the equation we must resolve:")
+        print("\n\t",a,"x^2 = 0")
+    
+    elif b == 0:
         if (a > 0 and c > 0) or (a < 0 and c < 0):
             print('\n\tThe equation has no solutions..')
         else: 
@@ -12,6 +16,9 @@ def detail(a, b, c, D):
         print("\nFor finding the solutions of incomplete equation we must resolve:")
         print("\n\tx_1 = 0 and x_2 = -b / a")
         print("\n\tx_1 = 0 and x_2 =",-b,"/",a)
+
+    elif a == 0:
+        print("\nIt doesn't exist quadratic equation with a = 0..")
 
     elif D < 0:
         print("\nThe equation has complex solutions..")
