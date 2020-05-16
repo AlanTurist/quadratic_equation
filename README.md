@@ -8,7 +8,9 @@
   <br>
   <br>
   <body>
-  <center>It's a script that calculates the solutions of every quadratic equation of the type<b> ax^2 + bx + c = 0 </b></center>
+  <center>It's a script that calculates the solutions of every quadratic equation of the types:
+    <br>
+    <b> ax^2 + bx + c = 0, ax^2 + bx = 0 and ax^2 + c = 0 </b></center>
     <br>
     <br>
     If you like to test the script, just download quadratic_equation.exe and run it.
@@ -26,6 +28,8 @@
       <img src="https://github.com/AlanTurist/quadratic_equation/blob/master/images/4.jpg" " width="500"    height="333">
       <br>
       <img src="https://github.com/AlanTurist/quadratic_equation/blob/master/images/5.jpg" " width="500"    height="333">
+      <br>
+      <img src="https://github.com/AlanTurist/quadratic_equation/blob/master/images/6.jpg" " width="500"    height="333">
    </body>
   </html>
 
