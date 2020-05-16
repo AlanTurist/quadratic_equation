@@ -1,9 +1,7 @@
 import math
 import cmath
 
-def solution(a, b, c):
-
-    D = ((b**2) - (4*a*c))
+def solution(a, b, c, D):
 
     if D >= 0:
         disc = math.sqrt(D)
