@@ -18,12 +18,12 @@ def detail(a, b, c, D):
 
     else:
         print("\nFor finding the solutions we must resolve:")
-        print("\n\tx_1,2 = (-b -/+ √Δ) / 2*a, Δ = √((b^2) - 4*a*c)")
+        print("\n\tx_1,2 = (-b -/+ √Δ) / 2*a, Δ = √((b^2) - 4 * a * c)")
         if D == 0:
             print("\n\tThe equation has double solution because Δ = 0:")
             print("\n\tWe must resolve x_1,2 = -b / 2*a")
-            print("\n\tx_1,2 =",-b,"/ 2*",a)
+            print("\n\tx_1,2 =",-b,"/ 2 *",a)
         else:
             print("\n\tΔ = √(",b**2," - 4*",a,"*",c,") = √",D)
-            print("\n\tx_1 =",-b,"- √",D,"/ 2*",a)
-            print("\n\tx_2 =",-b,"+ √",D,"/ 2*",a)
+            print("\n\tx_1 =",-b,"- √",D,"/ 2 *",a)
+            print("\n\tx_2 =",-b,"+ √",D,"/ 2 *",a)
