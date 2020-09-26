@@ -10,7 +10,7 @@
   <body>
   <center>It's a script that calculates the solutions of every quadratic equation of the types:
     <br>
-    <b> ax<sup>2</sup> + bx + c = 0, ax^2 + bx = 0 and ax<sup>2</sup> + c = 0 </b></center>
+    <b> ax<sup>2</sup> + bx + c = 0, ax<sup>2</sup> + bx = 0 and ax<sup>2</sup> + c = 0 </b></center>
     <br>
     <br>
     If you like to test the script, just download quadratic_equation.exe and run it.
